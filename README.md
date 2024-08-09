@@ -1,0 +1,34 @@
+Singleton is a creational design pattern since it creates object.
+
+We use this pattern when we need to create only one instance of the class.
+
+I have used for Application Configuration as each customer has different parameters in Application Set up.
+and these parameters will be constant for one set up. 
+Ofcourse the customer can upgrade their Application to higer end.
+
+So, as you know Set up requires only one instance of the object and the same object will be checked whenever it checks for different parameters of the Set up.
+
+Singleton pattern needs to have constructor as private. We call constructor from our class only and no one else can call it to have only one instance.
+
+Whenever anyone wants the object , they will call public method of this class which will return the one and only one instance present.
+
+The object is private and static so that we can have only one instance.
+
+Better to have lazy initialisation, creates instance only when required. 
+
+Better to have synchronized block where instance is created so that if more than two threads access the call , only one thread has access to the code at a time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
